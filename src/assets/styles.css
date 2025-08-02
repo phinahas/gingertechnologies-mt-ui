@@ -1,0 +1,35 @@
+
+/* Reset default body margin and set font family */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main container for the chat app, using flexbox for layout */
+.chat-container {
+  display: flex;
+  height: 89vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrollbars on the container */
+}
+
+/* Sidebar for conversation list */
+.chat-sidebar {
+  width: 35%; /* Fixed width */
+  background-color: #f5f5f5; /* Light gray background */
+  border-right: 1px solid #e0e0e0; /* Subtle border */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+/* Main chat area */
+.chat-main {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Container for messages */
+.messages-container {
+  flex: 1; /* Fill available space */
+  overflow-y: auto; /* Allow scrolling for messages */
+  padding: 16px; /* Inner spacing */
+}
