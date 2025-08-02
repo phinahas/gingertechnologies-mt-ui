@@ -62,6 +62,11 @@ const AppRoutes = () => {
         },
       ]
     },
+    {
+      path: '*',
+      element: <Navigate to="/message/message/Page Not Found! The page you're looking for doesn't exist." replace />,
+    }
+
   ]);
 
   return routes;
