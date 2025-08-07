@@ -22,3 +22,13 @@ export const APPEND_OLDER_MESSAGES = 'APPEND_OLDER_MESSAGES';
 export const SET_HAS_MORE = 'SET_HAS_MORE';
 export const RESET_CONVERSATIONS = 'RESET_CONVERSATIONS';
 export const RESET_CHAT_STORE = 'RESET_CHAT_STORE';
+
+
+
+
+
+
+
+// XOX Game
+
+export const START_GAME = 'START_GAME'

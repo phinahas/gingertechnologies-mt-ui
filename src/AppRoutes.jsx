@@ -15,7 +15,7 @@ import HomePage from "./pages/Home/HomePage";
 import MessageDisplayPage from "./pages/MessageDisplay/MessageDisplayPage";
 import ServerErrorPage from "./pages/MessageDisplay/ServerErrorPage";
 import MessageLayout from "./layouts/MessageLayout";
-
+import XOXPage  from './pages/XOX/XOXPage';
 
 
 const AppRoutes = () => {
@@ -45,6 +45,10 @@ const AppRoutes = () => {
         {
           path: '/chat',
           element: <HomePage />
+        },
+        {
+          path:'/xox',
+          element:<XOXPage/>
         }
       ]
     },

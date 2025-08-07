@@ -5,6 +5,7 @@ import { combineReducers } from 'redux';
 import snackbarReducer from './snackbarReducers';
 import userReducer from './userReducer';
 import chatReducer from './chatReducer';
+import xoxReducer from './xoxReducer'
 
 
 // ==============================|| COMBINE REDUCER ||============================== //
@@ -13,7 +14,8 @@ const reducer = combineReducers({
 
     snackbarStore: snackbarReducer,
     userStore: userReducer,
-    chatStore:chatReducer
+    chatStore:chatReducer,
+    xoxStore:xoxReducer
 
 });
 
